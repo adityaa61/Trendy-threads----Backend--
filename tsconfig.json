@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ES2020",                 // Modern JS features
     "module": "commonjs",               // Node.js module system
-    "rootDir": "src",                 // TypeScript source files
-    "outDir": "dist",                 // Compiled JS output
+    "rootDir": "./src",                 // TypeScript source files
+    "outDir": "./dist",                 // Compiled JS output
     "esModuleInterop": true,            // Allows import/export compatibility
     "moduleResolution": "node",
     "strict": true,                     // Type safety
