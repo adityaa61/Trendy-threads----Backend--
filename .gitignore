@@ -1,0 +1,43 @@
+# ============================================================
+# Node / Express / TypeScript Backend .gitignore
+# ============================================================
+
+# Node modules
+node_modules/
+
+# Env Files (DO NOT PUSH SECRETS)
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+logs/
+*.log
+
+# Dist build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE config
+.vscode/
+.idea/
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# Local uploads (if ever used — you use Cloudinary but safe to ignore)
